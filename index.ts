@@ -27,7 +27,7 @@ export let providers = [
     providers: providers
 })
 export class ToastyModule {
-    static forRoot(): ModuleWithProviders {
+    static forRoot(): ModuleWithProviders<any> {
         return {
             ngModule: ToastyModule,
             providers: providers
